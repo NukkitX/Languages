@@ -81,6 +81,9 @@ commands.generic.unknown=Unknown command. Try /help for a list of commands
 commands.generic.player.notFound=That player cannot be found
 commands.generic.usage=Usage: %1$2s
 
+commands.version.success=%1$2s Version %2$2s implementing Minecraft Version %3$2s
+commands.version.usage=/version
+
 commands.time.added=Added %1$2s to the time
 commands.time.set=Set the time to %1$2s
 commands.time.query=Time is %1$2s

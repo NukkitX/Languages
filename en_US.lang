@@ -80,6 +80,7 @@ disconnect.overflow=Buffer overflow
 disconnect.quitting=Quitting
 disconnect.spam=Kicked for spamming
 disconnect.timeout=Timed out
+disconnect.duplicate_login=You logged in from another location
 
 disconnectionScreen.outdatedClient=Outdated client!
 disconnectionScreen.outdatedServer=Outdated server!

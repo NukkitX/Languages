@@ -80,7 +80,6 @@ disconnect.overflow=Buffer overflow
 disconnect.quitting=Quitting
 disconnect.spam=Kicked for spamming
 disconnect.timeout=Timed out
-disconnect.duplicate_login=You logged in from another location
 
 disconnectionScreen.outdatedClient=Outdated client!
 disconnectionScreen.outdatedServer=Outdated server!
@@ -88,6 +87,7 @@ disconnectionScreen.serverFull=Server is full!
 disconnectionScreen.invalidSkin=Invalid skin!
 disconnectionScreen.invalidName=Invalid name!
 disconnectionScreen.resourcePack=Encountered a problem while downloading or applying resource pack.
+disconnectionScreen.loggedinOtherLocation=Logged in from other location
 
 potion.moveSpeed=Speed
 potion.moveSlowdown=Slowness

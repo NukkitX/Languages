@@ -9,7 +9,7 @@
 
 settings:
  #Выбор языка.
- #Доступные языки: eng, chs, cht, jpn, rus, spa, pol, bra, kor, ukr, deu, ltu
+ #Доступные языки: eng, chs, cht, jpn, rus, spa, pol, bra, kor, ukr, deu, ltu, cze
  language: "rus"
  #true для отправки переведённых строк на сервер, или false - возложить перевод на устройство
  force-language: false
@@ -63,7 +63,7 @@ timings:
 
 level-settings:
  #Формат мира, который будет использоваться (по умолчанию) при создании миров
- default-format: mcregion
+ default-format: anvil
  #Автоматически изменять уровень частоты тика, чтобы соответствовать 20 тиков в секунду
  auto-tick-rate: true
  auto-tick-rate-limit: 20
@@ -109,7 +109,12 @@ spawn-limits:
  animals: 15
  water-animals: 5
  ambient: 15
-
+ 
+player:
+ #Если выбрано true,то данные игрока будут храниться в файле players/playername.dat
+ #Если выбрано false, Nukkit не будет хранить данные игрока в "dat" файлах, для того чтобы плагины с ними что-то делали.
+ save-player-data: true
+ 
 aliases:
  #Псевдонимы (алиасы) для команд
  #Например:

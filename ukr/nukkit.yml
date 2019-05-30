@@ -9,7 +9,7 @@
 
 settings:
  #Налаштування мови
- #Доступні: eng, chs, cht, jpn, rus, spa, pol, bra, kor, ukr, deu, ltu
+ #Доступні: eng, chs, cht, jpn, rus, spa, pol, bra, kor, ukr, deu, ltu, cze
  language: "ukr"
  #Вибір пристрою для обробки перекладу (true — сервер буде оброблювати переклад)
  force-language: false
@@ -61,7 +61,7 @@ timings:
 
 level-settings:
  #Формат, що рівні використовуватимуть при створенні
- default-format: mcregion
+ default-format: anvil
  #Автоматично змінювати рівень частоти тіка, щоб відповідати 20 тіків в секунду
  auto-tick-rate: true
  auto-tick-rate-limit: 20
@@ -107,7 +107,12 @@ spawn-limits:
  animals: 15
  water-animals: 5
  ambient: 15
-
+ 
+player:
+ #If true, player data will be saved as players/playername.dat
+ #If false, nukkit won't save player data as "dat" files, in order that plugins can do something on it.
+ save-player-data: true
+ 
 aliases:
  #Альтернативи існуючим командам
  #Наприклад:

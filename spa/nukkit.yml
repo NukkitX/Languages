@@ -4,7 +4,7 @@
 
 settings:
  #Configuración de multi-lenguaje
- #Disponibles: eng, chs, cht, jpn, rus, spa, pol, bra, kor, ukr, deu, ltu
+ #Disponibles: eng, chs, cht, jpn, rus, spa, pol, bra, kor, ukr, deu, ltu, cze
  language: "spa"
  #Ya sea para enviar todos los mensajes traducidos desde la consola o dejar que el dispositivo los interprete
  force-language: false
@@ -56,7 +56,7 @@ timings:
 
 level-settings:
  #El formato por defecto que los niveles utilizarán cuando se creen
- default-format: mcregion
+ default-format: anvil
  #Cambian automáticamente los niveles de velocidad para mantener 20 ticks por segundo 
  auto-tick-rate: true
  auto-tick-rate-limit: 20
@@ -102,7 +102,12 @@ spawn-limits:
  animals: 15
  water-animals: 5
  ambient: 15
-
+ 
+player:
+ #If true, player data will be saved as players/playername.dat
+ #If false, nukkit won't save player data as "dat" files, in order that plugins can do something on it.
+ save-player-data: true
+ 
 aliases:
  #Alias de comandos
  #Ejemplos:

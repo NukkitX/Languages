@@ -27,16 +27,16 @@ nukkit.server.networkError=[Network] zatrzymano Interfejs %1$2s ze względu na %
 nukkit.server.networkStart=Uruchamianie serwera na %1$2s:%2$2s
 nukkit.server.info=This server is running %1$2s version %2$2s "%3$2s" (API %4$2s)
 nukkit.server.info.extended=This server is running %1$2s %2$2s implementing API version %3$2s for Minecraft: Bedrock Edition %4$2s (protocol version %5$2s)
-nukkit.server.license=%1$2s is distributed under the GPL License
+nukkit.server.license=%1$2s jest dystrybuowany na licencji GPL
 nukkit.server.tickOverload=Can't keep up! Is the server overloaded?
-nukkit.server.startFinished=Done (%1$2ss)! For help, type "help" or "?"
-nukkit.server.defaultGameMode=Default game type: %1$2s
-nukkit.server.query.start=Starting GS4 status listener
-nukkit.server.query.info=Setting query port to %1$2s
+nukkit.server.startFinished=Gotowe (%1$2ss)! Aby uzyskać pomoc, wpisz "help" lub "?"
+nukkit.server.defaultGameMode=Domyślny tryb gry: %1$2s
+nukkit.server.query.start=Uruchamianie nasłuchiwania statusu GS4
+nukkit.server.query.info=Ustawianie portu zapytań na %1$2s
 nukkit.server.query.running=Query is running on %1$2s:%2$2s
-nukkit.server.rcon.emptyPasswordError=Failed to start RCON: password is empty
-nukkit.server.rcon.startupError=Failed to start RCON: %1$2s
-nukkit.server.rcon.running=RCON is running on %1$2s:%2$2s
+nukkit.server.rcon.emptyPasswordError=Nie udało się uruchomić RCON: hasło jest puste
+nukkit.server.rcon.startupError=Nie udało się uruchomić RCON: %1$2s
+nukkit.server.rcon.running=RCON działa na %1$2s:%2$2s
 
 nukkit.command.alias.illegal=Could not register alias %1$2s because it contains illegal characters
 nukkit.command.alias.notFound=Could not register alias %1$2s because it contains commands that do not exist: %2$2s
@@ -109,5 +109,4 @@ nukkit.resources.success=Successfully loaded %1$2s resource packs
 nukkit.resources.zip.not-found=File '%1$2s' is not found
 nukkit.resources.zip.no-manifest='manifest.json' is not found
 nukkit.resources.zip.invalid-manifest='manifest.json' is invalid or incomplete
-
 

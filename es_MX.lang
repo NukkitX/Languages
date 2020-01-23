@@ -9,7 +9,7 @@ nukkit.language.selected=Se seleccionó el idioma %1$2s como el idioma predeterm
 nukkit.data.playerNotFound=No se encontraron datos para "%1$2s", creando un nuevo perfil
 nukkit.data.playerCorrupted=Se encontraron datos corruptos para "%1$2s", creando un nuevo perfil
 nukkit.data.playerOld=Datos antiguos de jugador encontrados para "%1$2s", actualizando el perfil
-nukkit.data.saveError=No se pudo guardar el jugador "%1$2s": %2$2s
+nukkit.data.saveError=No se pudo guardar al jugador "%1$2s": %2$2s
 
 nukkit.level.notFound=No se encontró el mundo "%1$2s"
 nukkit.level.loadError=No se pudo cargar el mundo "%1$2s": %2$2s
@@ -18,7 +18,7 @@ nukkit.level.tickError=No se pudo cargar el mundo "%1$2s": %2$2s
 nukkit.level.chunkUnloadError=Error al descargar un chunk: %1$2s
 nukkit.level.backgroundGeneration=Terreno de aparición para el nivel "%1$2s" se está generando en segundo plano
 nukkit.level.defaultError=No se ha cargado ningún mundo predeterminado
-nukkit.level.preparing=Preparando nivel "%1$2s"
+nukkit.level.preparing=Preparando el mundo "%1$2s"
 nukkit.level.unloading=Descargando mundo "%1$2s"
 nukkit.level.updating=Se encontraron datos de mundo antiguos encontrados para "%1$2s", convirtiendo el formato
 
@@ -87,26 +87,26 @@ nukkit.player.logIn=%1$2s[/%2$2s:%3$2s] conectado con la id de entidad %4$2s en 
 nukkit.player.logOut=%1$2s[/%2$2s:%3$2s] desconectado debido a %4$2s
 nukkit.player.invalidEntity=%1$2s intentó atacar una entidad no válida
 
-nukkit.plugin.load=Loading %1$2s
+nukkit.plugin.load=Cargando %1$2s
 nukkit.plugin.restrictedName=Nombre restringido
 nukkit.plugin.incompatibleAPI=Versión de API incompatible
 nukkit.plugin.unknownDependency=Dependencia desconocida
-nukkit.plugin.circularDependency=Circular dependency detected
-nukkit.plugin.genericLoadError=Could not load plugin '%1$2s'
+nukkit.plugin.circularDependency=Dependencia circular detectada
+nukkit.plugin.genericLoadError=No se ha podido cargar el plugin '%1$2s'
 nukkit.plugin.spacesDiscouraged=Plugin '%1$2s' usa espacios en su nombre, esto no se recomienda
 nukkit.plugin.loadError=No se ha podido cargar el plugin '%1$2s': %2$2s
 nukkit.plugin.duplicateError=No se ha podido cargar el plugin '%1$2s': el plugin existe
 nukkit.plugin.fileError=No se puede cargar '%1$2s' en la carpeta '%2$2s': %3$2s
-nukkit.plugin.commandError=Could not load command %1$2s for plugin %2$2s
-nukkit.plugin.aliasError=Could not load alias %1$2s for plugin %2$2s
-nukkit.plugin.deprecatedEvent=Plugin '%1$2s' has registered a listener for '%2$2s' on method '%3$2s', but the event is Deprecated.
-nukkit.plugin.eventError=Could not pass event '%1$2s' to '%2$2s': %3$2s on %4$2s
+nukkit.plugin.commandError=No se pudo cargar el comando %1$2s para el plugin %2$2s
+nukkit.plugin.aliasError=No se pudo cargar el alias %1$2s para el plugin %2$2s
+nukkit.plugin.deprecatedEvent=El plugin '%1$2s' ha registrado un oyente para '%2$2s' en el método '%3$2s', pero el evento es Obsoleto.
+nukkit.plugin.eventError=No se pudo pasar el evento '%1$2s' a '%2$2s': %3$2s en %4$2s
 
-nukkit.resources.invalid-path=Resource packs path '%1$2s' exists and is not a directory
-nukkit.resources.unknown-format=Could not load '%1$2s' due to format not recognized
-nukkit.resources.fail=Could not load '%1$2s': %2$2s
-nukkit.resources.success=Successfully loaded %1$2s resource packs
-nukkit.resources.zip.not-found=File '%1$2s' is not found
+nukkit.resources.invalid-path=Ruta de los paquetes de recursos '%1$2s' existe y no es un directorio
+nukkit.resources.unknown-format=No se pudo cargar '%1$2s' debido a que el formato no es reconocido
+nukkit.resources.fail=No se pudo cargar '%1$2s': %2$2s
+nukkit.resources.success=Paquetes de recursos %1$2s cargados satisfactoriamente
+nukkit.resources.zip.not-found=El archivo '%1$2s' no se ha encontrado
 nukkit.resources.zip.no-manifest='manifest.json' no se encuentra
 nukkit.resources.zip.invalid-manifest='manifest.json' no es valido o esta incompleto
 

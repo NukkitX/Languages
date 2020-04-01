@@ -33,25 +33,25 @@ debug:
  commands: false
 
 timings:
- #Enable core and plugin timings by default
+ #Ativar horários de núcleo e plug-in por padrão
  enabled: false
- #Enable monitoring at verbose level, include high-frequency timings
+ #Ative o monitoramento no nível detalhado, inclui tempos de alta frequência
  verbose: false
- #Interval between history frames in ticks
- #Default is 5 minutes (6000 ticks)
+ #Intervalo entre quadros de histórico em ticks
+ #O padrão é 5 minutos (6000 ticks)
  history-interval: 6000
- #Length of the whole timing history in ticks
- #Default is 1 hour (72000 ticks)
- #This value is capped at a maximum of history-interval * 12
+ #Duração de todo o histórico de temporizações em ticks
+ #O padrão é 1 hora (72000 ticks)
+ #Esse valor é limitado no máximo no intervalo do histórico * 12
  history-length: 72000
- #For special cases of servers with special permission to bypass the max
- #This max helps keep data file sizes reasonable for processing on Aikar's Timing parser side
- #Setting this will not help you bypass the max unless Aikar has added an exception on the API side
+ #Para casos especiais de servidores com permissão especial para ignorar o limite máximo
+ #Esse valor máximo ajuda a manter os tamanhos dos arquivos de dados razoáveis para processamento no lado do analisador de tempo da Aikar
+ #Definir isso não ajudará você a ignorar o máximo, a menos que o Aikar tenha adicionado uma exceção na API
  bypass-max: false
- #If set to true, name of your server won't be sent
+ #Se definido como true, o nome do seu servidor não será enviado
  privacy: false
- #Settings sections to ignore. These sections won't be sent to Aikar's Timing parser
- #For example: [all] or [settings, timings]
+ #Seções de configurações a serem ignoradas. Essas seções não serão enviadas ao analisador de tempo do Aikar
+ #Por exemplo: [all] ou [settings, timings]
  ignore: []
 
 level-settings:
@@ -104,10 +104,10 @@ spawn-limits:
  ambient: 15
  
 player:
- #If true, player data will be saved as players/playername.dat
- #If false, nukkit won't save player data as "dat" files, in order that plugins can do something on it.
+ #Se verdadeiro, os dados do jogador serão salvos em players/playername.dat
+ #Se falso, nukkit não salvará os dados do jogador como arquivos "dat", para que os plugins possam fazer algo neles.
  save-player-data: true
- #The time between skin change action in seconds, set to 0 if you dont want the cooldown
+ #O tempo entre a ação de alteração da pele em segundos, defina como 0 se você não quiser o tempo de espera
  skin-change-cooldown: 30
 
 aliases:
@@ -117,8 +117,8 @@ aliases:
  #savestop: [save-all, stop]
 
 worlds:
- #Worlds that the server will use. Options are specific to the chosen generator, and may result in broken generation or
- #be ignored completely.
+ #Mundos que o servidor usará. As opções são específicas para o gerador escolhido e podem resultar em geração interrompida ou
+ #pode ser ignorado completamente.
  world:
   seed: 404
   generator: normal

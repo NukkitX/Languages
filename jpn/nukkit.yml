@@ -16,6 +16,7 @@ settings:
  #AsyncTask workersの数
  #auto に設定すると, コア数を検出しようとします（少なくとも4）
  async-workers: auto
+ bug-report: true
 
 network:
  #バイト単位のバッチ処理パケットのしきい値。これらのパケットは圧縮されます
@@ -25,6 +26,7 @@ network:
  compression-level: 7
  #AsyncTasksを圧縮に使います. 0.5か1tick(1tick=0.05秒)遅れ、メインスレッドCPU負荷を減らします。
  async-compression: false
+ zlib-provider: 2
 
 debug:
  #1より大きいと、コンソールにデバッグメッセージが表示されます
@@ -102,14 +104,14 @@ spawn-limits:
  animals: 15
  water-animals: 5
  ambient: 15
- 
+
 player:
  #trueの場合、プレーヤーデータは players/playername.dat として保存されます
  #falseの場合、nukkitはプレーヤのデータを "dat"ファイルとして保存せず、プラグインが何かを実行できるようにします。
  save-player-data: true
  #スキンを変更する時のクールダウンを設定（秒単位）。なお不要な場合は0を設定してください。
  skin-change-cooldown: 30
- 
+
 aliases:
  #コマンドのショートカット
  #例:

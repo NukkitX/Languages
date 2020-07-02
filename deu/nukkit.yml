@@ -16,6 +16,7 @@ settings:
  #Anzahl an AsyncTasks
  #Wenn es auf auto gestellt ist, wird Nukkit versuchen die Anzahl der Cores zu ermitteln (und setzt mindestens 4)
  async-workers: auto
+ bug-report: true
 
 network:
  #Grenze der gesendeten Dateien/Pakete zur gleiden Zeit, in Bytes. Nur diese Pakete werden komprimiert
@@ -25,6 +26,7 @@ network:
  compression-level: 7
  #Nutze AsyncTask zur Komprimierung. Fügt halben Tick Verzögerung zu, weniger CPU Verbrauch im Main Theared
  async-compression: false
+ zlib-provider: 2
 
 debug:
  #Wenn > 1, werden Debug-Nachrichten in der Konsole angezeigt
@@ -102,14 +104,14 @@ spawn-limits:
  animals: 15
  water-animals: 5
  ambient: 15
- 
+
 player:
  #If true, player data will be saved as players/playername.dat
  #If false, nukkit won't save player data as "dat" files, in order that plugins can do something on it.
  save-player-data: true
  #The time between skin change action in seconds, set to 0 if you dont want the cooldown
  skin-change-cooldown: 30
- 
+
 aliases:
  #Aliasse für Befehle
  #Beispiele:

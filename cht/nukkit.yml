@@ -16,6 +16,7 @@ settings:
  deprecated-verbose: true
  #非同步線程數量，如果設定為auto，則自動識別CPU核心數量（最少4線程）
  async-workers: auto
+ bug-report: true
 
 network:
  #數據包大小閥值（單位：位元組），這些包將被壓縮
@@ -25,6 +26,7 @@ network:
  compression-level: 7
  #非同步壓縮，緩解主線程CPU負載
  async-compression: false
+ zlib-provider: 2
 
 debug:
  #當調試級別 > 1 時，將在控制台顯示調試資訊
@@ -113,14 +115,14 @@ spawn-limits:
  #水生動物
  water-animals: 5
  ambient: 15
- 
+
 player:
  #設置為 ture，玩家資料將被儲存為 player/<玩家代號>.dat
  #設置為 false，nukkit 將不會儲存玩家資料為 "dat" 檔案，以便插件可以在其上執行某些操作。
  save-player-data: true
  #The time between skin change action in seconds, set to 0 if you dont want the cooldown
  skin-change-cooldown: 30
- 
+
 aliases:
  #指令別稱
  #例：

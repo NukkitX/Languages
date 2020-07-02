@@ -16,6 +16,7 @@ settings:
  #Número de trabalhadores da AsyncTask
  #Se marcado como auto, ele irá tentar detectar o número de núcleos (e no mínimo 4)
  async-workers: auto
+ bug-report: true
 
 network:
  #Limite de lotes de packets, em bytes. Somente estes packets serão compactados
@@ -25,6 +26,7 @@ network:
  compression-level: 7
  #Usar AsyncTasks para a compressão. Adiciona metade de um/um tick de delay, menos uso na CPU na thread principal.
  async-compression: false
+ zlib-provider: 2
 
 debug:
  #Se maior de 1, as mensagens para debug irão ser mostradas no console
@@ -102,7 +104,7 @@ spawn-limits:
  animals: 15
  water-animals: 5
  ambient: 15
- 
+
 player:
  #If true, player data will be saved as players/playername.dat
  #If false, nukkit won't save player data as "dat" files, in order that plugins can do something on it.

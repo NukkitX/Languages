@@ -21,6 +21,7 @@ settings:
  #Количество рабочих потоков AsyncTask
  #При значении auto будет рассчитано исходя из числа ядер процессора (но не меньше 4)
  async-workers: auto
+ bug-report: true
 
 network:
  #Предельное значение объема серии пакетов (в байтах), при достижении которого они будут сжаты. Сжиматься будут только эти пакеты.
@@ -32,6 +33,7 @@ network:
  #Использование асинхронной задачи для сжатия
  #Снижает загрузку на CPU, но добавляет один (или половину) тика к задержке для отправки данных
  async-compression: false
+ zlib-provider: 2
 
 debug:
  #При значении > 1 будет отображать дополнительную отладочную информацию в консоли
@@ -109,14 +111,14 @@ spawn-limits:
  animals: 15
  water-animals: 5
  ambient: 15
- 
+
 player:
  #Если выбрано true,то данные игрока будут храниться в файле players/playername.dat
  #Если выбрано false, Nukkit не будет хранить данные игрока в "dat" файлах, для того чтобы плагины с ними что-то делали.
  save-player-data: true
  #The time between skin change action in seconds, set to 0 if you dont want the cooldown
  skin-change-cooldown: 30
- 
+
 aliases:
  #Псевдонимы (алиасы) для команд
  #Например:
